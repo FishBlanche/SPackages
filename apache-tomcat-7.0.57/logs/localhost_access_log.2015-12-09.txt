@@ -1,0 +1,14 @@
+127.0.0.1 - - [09/Dec/2015:13:08:03 +0800] "GET /dataservices-samples/login/login.jsp HTTP/1.1" 200 8309
+127.0.0.1 - - [09/Dec/2015:13:08:03 +0800] "GET /dataservices-samples/loginImages/arrrow-right.jpg HTTP/1.1" 404 672
+127.0.0.1 - - [09/Dec/2015:13:08:03 +0800] "GET /dataservices-samples/loginImages/arrrow-left.jpg HTTP/1.1" 404 672
+127.0.0.1 - - [09/Dec/2015:13:08:04 +0800] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/Dec/2015:13:08:04 +0800] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/Dec/2015:13:08:15 +0800] "GET /dataservices-samples/dataSource?time=1449637695571&dealtype=login&username=admin&pwd=admin HTTP/1.1" 200 9
+127.0.0.1 - - [09/Dec/2015:13:08:15 +0800] "GET /dataservices-samples/index.jsp HTTP/1.1" 200 23786
+127.0.0.1 - - [09/Dec/2015:13:08:18 +0800] "GET /dataservices-samples/batProcess/batFileProcess.jsp HTTP/1.1" 200 7300
+127.0.0.1 - - [09/Dec/2015:13:08:19 +0800] "GET /dataservices-samples/removeDirector.jsp HTTP/1.1" 200 6933
+127.0.0.1 - - [09/Dec/2015:13:08:20 +0800] "GET /dataservices-samples/modifyDirector.jsp HTTP/1.1" 200 6939
+127.0.0.1 - - [09/Dec/2015:13:08:21 +0800] "GET /dataservices-samples/createDirector.jsp HTTP/1.1" 200 6973
+127.0.0.1 - - [09/Dec/2015:13:09:17 +0800] "GET /dataservices-samples/createDirector.jsp HTTP/1.1" 200 6973
+127.0.0.1 - - [09/Dec/2015:13:09:19 +0800] "GET /dataservices-samples/modifyDirector.jsp HTTP/1.1" 200 6939
+127.0.0.1 - - [09/Dec/2015:13:09:22 +0800] "GET /dataservices-samples/removeDirector.jsp HTTP/1.1" 200 6933

@@ -1,0 +1,144 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ include file="/common/header.jsp"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Metronic | Form Stuff - Form Validation</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+   <meta content="" name="description" />
+   <meta content="" name="author" />
+   <meta name="MobileOptimized" content="320">
+   <!-- BEGIN GLOBAL MANDATORY STYLES -->          
+   <link href="${ctx}css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+   <link href="${ctx}css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+   <link href="${ctx}css/uniform.default.css" rel="stylesheet" type="text/css"/>
+   <!-- END GLOBAL MANDATORY STYLES -->
+   <!-- BEGIN PAGE LEVEL STYLES --> 
+   <link rel="stylesheet" type="text/css" href="${ctx}css/select2_metro.css" />
+   <link rel="stylesheet" type="text/css" href="${ctx}css/bootstrap-wysihtml5.css" />
+   <!-- END PAGE LEVEL SCRIPTS -->
+   <!-- BEGIN THEME STYLES --> 
+   <link href="${ctx}css/style-metronic.css" rel="stylesheet" type="text/css"/>
+   <link href="${ctx}css/style.css" rel="stylesheet" type="text/css"/>
+   <link href="${ctx}css/style-responsive.css" rel="stylesheet" type="text/css"/>
+   <link href="${ctx}css/plugins.css" rel="stylesheet" type="text/css"/>
+   <link href="${ctx}css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+   <link href="${ctx}css/custom.css" rel="stylesheet" type="text/css"/>
+   <!-- END THEME STYLES -->
+   <link rel="shortcut icon" href="favicon.ico" />
+   <style type="text/css">
+	   body {
+			background-color: aliceblue;
+		}
+   </style>
+</head>
+<body class="page-header-fixed"   style="">
+	<div class="page-content" style="margin-left: 0px; padding-top: 1.5%;margin-top: 42px;">
+  	   <!-- BEGIN PAGE HEADER-->   
+         <div class="row" >
+            <div class="col-md-12">
+               <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+               <h3 class="page-title"  style="margin-left: 41px;">
+                  实验室信息编辑
+               </h3>
+               <ul class="page-breadcrumb breadcrumb" style="margin-left: 42px;">
+                  <li>
+                     <i class="icon-home"></i>
+                     <a href="${ctx}index.jsp"  target="_blank">实验室信息编辑</a>                     
+                  </li>          
+               </ul>
+               <!-- END PAGE TITLE & BREADCRUMB-->
+            </div>
+         </div>
+    <!-- END PAGE HEADER-->
+    <!-- BEGIN PAGE CONTENT-->
+         <div class="row"  style="margin-left: 20px;margin-right: 20px;">
+            <div class="col-md-12">
+               <!-- BEGIN VALIDATION STATES-->
+               <div class="portlet box blue">
+                  <div class="portlet-title">
+                     <div class="caption"><i class="icon-reorder"></i>实验室信息编辑</div>
+                     <div class="tools">
+                        <a href="javascript:;" class="collapse"></a>
+                     </div>
+                  </div>
+                  <div class="portlet-body form">
+						<!-- 编辑器 -->
+						<script id="editor" type="text/plain" style="width:100%;height:50%;"></script>
+                  </div>
+                  <form  id="content_form" action="" method="post">
+                  		<input type="hidden"  name="id"  value="${id}">
+                  		<input type="hidden" id="content"  name="content"/>
+                  </form>
+               </div>
+                       <button type="submit"  onclick="add()">保存</button>
+               <!-- END VALIDATION STATES-->
+            </div>
+         </div>
+      </div>
+   <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+   <!-- BEGIN CORE PLUGINS -->   
+   <!--[if lt IE 9]>
+   <script src="assets/plugins/respond.min.js"></script>
+   <script src="assets/plugins/excanvas.min.js"></script> 
+   <![endif]-->   
+   <script src="${ctx}js/jquery-1.10.2.min.js" type="text/javascript"></script>
+   <script src="${ctx}js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+   <script src="${ctx}js/bootstrap.min.js" type="text/javascript"></script>
+   <script src="${ctx}js/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script>
+   <script src="${ctx}js/jquery.slimscroll.min.js" type="text/javascript"></script>
+   <script src="${ctx}js/jquery.blockui.min.js" type="text/javascript"></script>  
+   <script src="${ctx}js/jquery.cookie.min.js" type="text/javascript"></script>
+   <script src="${ctx}js/jquery.uniform.min.js" type="text/javascript" ></script>
+   <!-- END CORE PLUGINS -->
+   <!-- BEGIN PAGE LEVEL PLUGINS -->
+   <script type="text/javascript" src="${ctx}js/jquery.validate.min.js"></script>
+   <script type="text/javascript" src="${ctx}js/additional-methods.min.js"></script>
+   <script type="text/javascript" src="${ctx}js/select2.min.js"></script>
+   <script type="text/javascript" src="${ctx}js/wysihtml5-0.3.0.js"></script> 
+   <script type="text/javascript" src="${ctx}js/bootstrap-wysihtml5.js"></script>
+   <script type="text/javascript" src="${ctx}js/ckeditor.js"></script>
+   <!-- END PAGE LEVEL PLUGINS -->
+   <!-- BEGIN PAGE LEVEL STYLES -->
+   <script src="${ctx}js/app.js"></script>
+   <script src="${ctx}js/form-validation.js"></script> 
+   <!-- END PAGE LEVEL STYLES -->    
+   <!-- 编辑器 -->
+    <script type="text/javascript" charset="utf-8" src="${ctx}js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="${ctx}js/ueditor/ueditor.all.min.js"> </script>
+    <!--建议手动加载语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+    <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+    <script type="text/javascript" charset="utf-8" src="${ctx}js/ueditor/zh-cn/zh-cn.js"></script>
+   <script>
+      jQuery(document).ready(function() {   
+         // initiate layout and plugins
+         App.init();
+         FormValidation.init();
+      });
+      
+    //实例化编辑器
+      var ue = UE.getEditor('editor');
+      var value = '${message}';
+      ue.addListener("ready", function () {
+    	  	ue.setContent(value);
+      });
+  
+    
+    //保存
+    function add(){
+    	$("#content").val(UE.getEditor('editor').getContent());
+        if ($("#content").val() == null || $("#content").val() == "") {
+            alert("内容不能为空");
+            return;
+        }
+        content_form.action = "add";
+        content_form.submit();
+    }
+
+   </script>
+   <!-- END JAVASCRIPTS -->  
+</body>
+</html>

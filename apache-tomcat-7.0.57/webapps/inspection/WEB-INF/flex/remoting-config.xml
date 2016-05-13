@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service id="remoting-service" 
+    class="flex.messaging.services.RemotingService">
+
+    <adapters>
+        <adapter-definition id="java-object" class="flex.messaging.services.remoting.adapters.JavaAdapter" default="true"/>
+    </adapters>
+
+    <default-channels>
+        <channel ref="my-amf"/>
+    </default-channels>
+    
+
+    <destination id="ControlPadService">
+        <properties>
+            <source>cn.com.run.app.service.ControlPadService</source>
+        </properties>
+    </destination>
+    
+     <destination id="GetLabInfoService">
+        <properties>
+            <source>cn.com.run.app.service.GetLabInfoService</source>
+        </properties>
+    </destination>
+    
+      <destination id="GetCheckInfoService">
+        <properties>
+            <source>cn.com.run.app.service.GetAttendanceInfoService</source>
+        </properties>
+    </destination>
+  
+  
+   <destination id="PushService">
+        <properties>
+            <source>cn.com.run.app.service.ApnsService</source>
+        </properties>
+    </destination>
+</service>

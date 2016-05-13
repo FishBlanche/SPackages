@@ -1,0 +1,43 @@
+
+.img1{
+	src:/inspection/image/welcome page/sn1.png;
+	
+}
+.ime2{
+	src:/inspection/image/welcome page/sn2.png;
+}
+#div1
+{
+float:left;
+width:100px;
+height:110px;
+}
+#div2
+{
+width:270px;
+height:110px;
+float:left;
+line-height: 110px; 
+slign:center;
+overflow: hidden; 
+color:white;
+font-family:ÐÂËÎÌå;
+font-size:75%;
+
+font-weight:300 ;
+   
+}
+#div3
+{
+width:370px;
+height:110px;
+clear:both;
+font-size:x-large;
+}
+#div4{
+	align:center;
+	width:240;
+	height:80;
+
+
+}

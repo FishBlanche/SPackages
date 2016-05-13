@@ -1,0 +1,488 @@
+八月 31, 2015 10:00:58 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:trader-server' did not find a matching property.
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.57
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Nov 3 2014 08:39:16 UTC
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.57.0
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_79\jre
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\apache-tomcat-7.0.57
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\apache-tomcat-7.0.57
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\apache-tomcat-7.0.57\conf\logging.properties
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\apache-tomcat-7.0.57\endorsed
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.57
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.57
+八月 31, 2015 10:00:58 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.57\temp
+八月 31, 2015 10:00:58 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;.
+八月 31, 2015 10:00:58 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+八月 31, 2015 10:00:59 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+八月 31, 2015 10:00:59 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 788 ms
+八月 31, 2015 10:00:59 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 31, 2015 10:00:59 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.57
+八月 31, 2015 10:00:59 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\apache-tomcat-7.0.57\webapps\trader-server\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+八月 31, 2015 10:01:02 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+八月 31, 2015 10:01:02 上午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/dataservices-samples' 的 Mojarra 2.0.3 (FCS b03)
+八月 31, 2015 10:01:02 上午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\backup
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\backup has finished in 31 ms
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\bin
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\bin has finished in 24 ms
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\conf
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\conf has finished in 24 ms
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\lib
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\lib has finished in 22 ms
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\logs
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\logs has finished in 21 ms
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\temp
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\temp has finished in 20 ms
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\webapps
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\webapps has finished in 20 ms
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\work
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\work has finished in 21 ms
+八月 31, 2015 10:01:03 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+八月 31, 2015 10:01:03 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+八月 31, 2015 10:01:03 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 4928 ms
+八月 31, 2015 10:29:28 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:trader-server' did not find a matching property.
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.57
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Nov 3 2014 08:39:16 UTC
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.57.0
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_79\jre
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\apache-tomcat-7.0.57
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\apache-tomcat-7.0.57
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\apache-tomcat-7.0.57\conf\logging.properties
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\apache-tomcat-7.0.57\endorsed
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.57
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.57
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.57\temp
+八月 31, 2015 10:29:28 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;.
+八月 31, 2015 10:29:28 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+八月 31, 2015 10:29:28 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+八月 31, 2015 10:29:28 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 381 ms
+八月 31, 2015 10:29:28 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 31, 2015 10:29:28 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.57
+八月 31, 2015 10:29:28 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\apache-tomcat-7.0.57\webapps\trader-server\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+八月 31, 2015 10:29:29 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+八月 31, 2015 10:29:29 上午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/dataservices-samples' 的 Mojarra 2.0.3 (FCS b03)
+八月 31, 2015 10:29:30 上午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\backup
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\backup has finished in 24 ms
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\bin
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\bin has finished in 24 ms
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\conf
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\conf has finished in 24 ms
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\lib
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\lib has finished in 22 ms
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\logs
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\logs has finished in 22 ms
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\temp
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\temp has finished in 22 ms
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\webapps
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\webapps has finished in 21 ms
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\work
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\work has finished in 21 ms
+八月 31, 2015 10:29:30 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+八月 31, 2015 10:29:30 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+八月 31, 2015 10:29:30 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2578 ms
+八月 31, 2015 10:32:20 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:trader-server' did not find a matching property.
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.57
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Nov 3 2014 08:39:16 UTC
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.57.0
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_79\jre
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\apache-tomcat-7.0.57
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\apache-tomcat-7.0.57
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\apache-tomcat-7.0.57\conf\logging.properties
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\apache-tomcat-7.0.57\endorsed
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.57
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.57
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.57\temp
+八月 31, 2015 10:32:20 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;.
+八月 31, 2015 10:32:20 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+八月 31, 2015 10:32:20 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+八月 31, 2015 10:32:20 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 377 ms
+八月 31, 2015 10:32:20 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 31, 2015 10:32:20 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.57
+八月 31, 2015 10:32:20 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\apache-tomcat-7.0.57\webapps\trader-server\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+八月 31, 2015 10:32:22 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+八月 31, 2015 10:32:22 上午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/dataservices-samples' 的 Mojarra 2.0.3 (FCS b03)
+八月 31, 2015 10:32:22 上午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\backup
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\backup has finished in 24 ms
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\bin
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\bin has finished in 27 ms
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\conf
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\conf has finished in 28 ms
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\lib
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\lib has finished in 23 ms
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\logs
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\logs has finished in 25 ms
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\temp
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\temp has finished in 22 ms
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\webapps
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\webapps has finished in 21 ms
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\work
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\work has finished in 21 ms
+八月 31, 2015 10:32:23 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+八月 31, 2015 10:32:23 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+八月 31, 2015 10:32:23 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2557 ms
+八月 31, 2015 10:44:30 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:trader-server' did not find a matching property.
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.57
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Nov 3 2014 08:39:16 UTC
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.57.0
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_79\jre
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_79-b15
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\apache-tomcat-7.0.57
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\apache-tomcat-7.0.57
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\apache-tomcat-7.0.57\conf\logging.properties
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\apache-tomcat-7.0.57\endorsed
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\apache-tomcat-7.0.57
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\apache-tomcat-7.0.57
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\apache-tomcat-7.0.57\temp
+八月 31, 2015 10:44:30 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;.
+八月 31, 2015 10:44:30 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+八月 31, 2015 10:44:30 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+八月 31, 2015 10:44:30 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 367 ms
+八月 31, 2015 10:44:30 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 31, 2015 10:44:30 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.57
+八月 31, 2015 10:44:30 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\apache-tomcat-7.0.57\webapps\trader-server\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+八月 31, 2015 10:44:31 上午 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+八月 31, 2015 10:44:31 上午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/dataservices-samples' 的 Mojarra 2.0.3 (FCS b03)
+八月 31, 2015 10:44:32 上午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\backup
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\backup has finished in 21 ms
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\bin
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\bin has finished in 23 ms
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\conf
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\conf has finished in 24 ms
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\lib
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\lib has finished in 24 ms
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\logs
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\logs has finished in 24 ms
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\temp
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\temp has finished in 20 ms
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\webapps
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\webapps has finished in 20 ms
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory F:\apache-tomcat-7.0.57\work
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory F:\apache-tomcat-7.0.57\work has finished in 21 ms
+八月 31, 2015 10:44:32 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+八月 31, 2015 10:44:32 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+八月 31, 2015 10:44:32 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2549 ms
